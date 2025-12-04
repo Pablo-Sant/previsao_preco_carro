@@ -6,3 +6,4 @@ ipykernel
 xgboost
 scikit-learn
 statsmodels
+fastapi
