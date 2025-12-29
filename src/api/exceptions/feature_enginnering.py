@@ -1,0 +1,2 @@
+class FeatureEngineeringError(Exception):
+    pass
