@@ -5,7 +5,7 @@ class Car(BaseModel):
     brand: str
     model: str
     model_year: int = Field(..., ge=1990, le=2025)
-    mileage: float = Field(..., ge=0)
+    milage: float = Field(..., ge=0)
     fuel_type: Literal[
         'Gasoline',
         'Hybrid',
