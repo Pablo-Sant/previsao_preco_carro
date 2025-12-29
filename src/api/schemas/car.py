@@ -30,4 +30,8 @@ class Car(BaseModel):
     ]
 
     speed_num: int = Field(..., ge=1, le=10)
+    
+    
+class CarResponse(BaseModel):
+    price: float
 
