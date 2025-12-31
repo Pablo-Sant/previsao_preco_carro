@@ -27,8 +27,6 @@ datasets/
 *.zip
 *.gz
 models/
-*.joblib
-*.pkl
 *.pickle
 *.h5
 *.pt
