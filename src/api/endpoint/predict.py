@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
-from schemas.car import Car, CarResponse
-from services.prediction_service import PredictionService
-from exceptions.feature_enginnering import FeatureEngineeringError
+from src.api.schemas.car import Car, CarResponse
+from src.api.services.prediction_service import PredictionService
+from src.api.exceptions.feature_enginnering import FeatureEngineeringError
 
 router = APIRouter()
 
