@@ -1,13 +1,9 @@
 from fastapi import APIRouter
-
+from fastapi.responses import RedirectResponse
 
 router = APIRouter()
 
 @router.get('/', status_code=200)
 def check():
     
-    return {
-        
-        'status': 'ok',
-        'message': 'API de predição de preço de carro online'
-    }
+    return RedirectResponse(url='/docs')
